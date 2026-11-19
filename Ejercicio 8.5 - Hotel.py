@@ -1,7 +1,4 @@
 """
-Universidad Nacional de Colombia - Sede Medellín
-Curso: Programación Orientada a Objetos 2026-2S
-Estudiante: Leonardo Angel Iriarte Arrieta
 
 Ejercicio 8.5 - Interfaz gráfica de usuario: Hotel
 
@@ -31,9 +28,9 @@ COLOR_DISPONIBLE = "#2e7d32"
 COLOR_ERROR = "#b00020"
 
 
-# ---------------------------------------------------------------------------
+
 # Excepciones propias
-# ---------------------------------------------------------------------------
+
 class HotelError(Exception):
     """Error base de las reglas de negocio del hotel."""
 
@@ -54,9 +51,8 @@ class DatoInvalidoError(HotelError):
     """Un campo obligatorio está vacío o tiene un formato incorrecto."""
 
 
-# ---------------------------------------------------------------------------
-# Lógica del negocio
-# ---------------------------------------------------------------------------
+
+# Lógica 
 class Validaciones:
     """Convierte y valida los textos que el usuario escribe en la interfaz."""
 
@@ -230,9 +226,9 @@ class Hotel:
         self.obtener_habitacion(numero).liberar()
 
 
-# ---------------------------------------------------------------------------
+
 # Interfaz gráfica (Tkinter)
-# ---------------------------------------------------------------------------
+
 class VentanaHotel(tk.Toplevel):
     """Ventana secundaria del hotel: tamaño fijo, centrada y asociada a la principal."""
 
