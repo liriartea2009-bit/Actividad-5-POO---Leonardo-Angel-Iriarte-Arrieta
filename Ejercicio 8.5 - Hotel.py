@@ -1,5 +1,4 @@
 """
-
 Ejercicio 8.5 - Interfaz gráfica de usuario: Hotel
 
 Programa que gestiona el ingreso y la salida de los huéspedes de un hotel de
