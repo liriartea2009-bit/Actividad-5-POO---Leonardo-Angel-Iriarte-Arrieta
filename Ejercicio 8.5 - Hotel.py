@@ -49,8 +49,6 @@ class HabitacionNoOcupadaError(HotelError):
 class DatoInvalidoError(HotelError):
     """Un campo obligatorio está vacío o tiene un formato incorrecto."""
 
-
-
 # Lógica 
 class Validaciones:
     """Convierte y valida los textos que el usuario escribe en la interfaz."""
@@ -95,7 +93,6 @@ class Validaciones:
                 f"La {campo.lower()} no está en el formato solicitado (aaaa-mm-dd)"
             ) from None
 
-
 class Huesped:
     """Huésped que ocupa una habitación desde una fecha de ingreso."""
 
@@ -129,7 +126,6 @@ class Huesped:
         if dias <= 0:
             raise DatoInvalidoError("La fecha de salida debe ser mayor que la fecha de ingreso")
         return dias
-
 
 class Habitacion:
     """Habitación del hotel: está disponible o la ocupa un único huésped."""
