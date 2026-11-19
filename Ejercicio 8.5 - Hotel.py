@@ -6,9 +6,9 @@ diez habitaciones simples. Las habitaciones 1 a 5 cuestan $120.000 por día y
 las habitaciones 6 a 10 cuestan $160.000 por día.
 
 El menú principal ofrece dos opciones:
-  - Consultar habitaciones: muestra las diez habitaciones y su estado, permite
+- Consultar habitaciones: muestra las diez habitaciones y su estado, permite
     elegir una disponible y registrar el ingreso del huésped.
-  - Salida de huéspedes: pide el número de habitación, calcula los días de
+- Salida de huéspedes: pide el número de habitación, calcula los días de
     alojamiento y el total a pagar, y libera la habitación.
 
 Las fechas se escriben con el formato aaaa-mm-dd.
